@@ -129,6 +129,17 @@ However, again you will need to adjust this for your own file structure.
 
 ## Step 7. Enjoy your continously deployed public site!
 
-If all goes to plan, netlify will give you a link you can use that will serve the most current commit on the branch you specified.
+The final deploy settings should be something like this:
+
+![Publish Directory](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/finalSettings.png)
+
+If all goes to plan, when you deploy your site netlify will perform the following steps:
+
+0. Do magic pre stuff.
+1. Run npm install to get all dependencies.
+2. Run ng build --prod to create your dist folder (which contains a _redirects)
+3. Deploy site from '[something]/dist/'
+
+And afterwards, it'll give you a link.
 
 If not, send me a message on slack (@Greg Mills) and maybe I can help.
