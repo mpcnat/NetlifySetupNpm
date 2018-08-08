@@ -33,7 +33,7 @@ So we need to add a redirects file to keep forcing the server to display index.h
 
 In the **src** folder of your angular application, add a _redirects file:
 
-![create redirects file](https://github.com/GregCMills/NetlifySetupNpm/images/redirects.png)
+![create redirects file](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/redirects.png)
 
 With the following content:
 
@@ -72,11 +72,11 @@ Log in to to netlify, and when prompted enter in your gitlab credentials.
 
 ## Step 4. Choose Your Project and Branch.
 
-![Choose Repository](https://github.com/GregCMills/NetlifySetupNpm/images/chooseRepository.png)
+![Choose Repository](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/chooseRepository.png)
 
 Find the correct repository, and choose it:
 
-![Choose Branch](https://github.com/GregCMills/NetlifySetupNpm/images/branch.png)
+![Choose Branch](https://raw.githubusercontent.com/GregCMills/NetlifySetupNpm/master/images/branch.png)
 
 Choose the branch you which to be continously deployed:
 
@@ -98,7 +98,7 @@ rowe
 ```
 To use npm install, we need to be in the correct directory (in our case, rowe/dashboard). So in addition to running the package.json build script, we need to change directory. Our command was as follows, but this will need to be changed as per your own file structure:
 
-![Build Command](https://github.com/GregCMills/NetlifySetupNpm/images/build.png)
+![Build Command](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/build.png)
 
 ## Step 6. Write Publish Directory
 
@@ -115,10 +115,11 @@ rowe
 │   │   package.json
 │   │   [Everything Else]
 │   │   
-``` a
+```
+
 Above was our own file structure, where **dist** was located in our dashboard folder. Our publish directory is therefore:
 
-![Publish Directory](https://github.com/GregCMills/NetlifySetupNpm/images/publish.png)
+![Publish Directory](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/publish.png)
 
 However, again you will need to adjust this for your own file structure.
 
