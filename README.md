@@ -82,7 +82,9 @@ Choose the branch you which to be continously deployed:
 
 ## Step 5. Write Build Command.
 
-This is where we use the package.json build script, but there is one complication:
+This is where we use the package.json build script, but there is one complication.
+
+By default, netlify runs build commands from the root of your repository.
 
 Our project repository structure was like this:
 ```
@@ -96,7 +98,9 @@ rowe
 │   │   [Everything Else]
 │   │   
 ```
-To use npm install, we need to be in the correct directory (in our case, rowe/dashboard). So in addition to running the package.json build script, we need to change directory. Our command was as follows, but this will need to be changed as per your own file structure:
+To use npm install, we need to be in the same directory as package.json (in our case, rowe/dashboard). 
+
+So in addition to running the package.json build script, we need to change directory. Our command was as follows, but this will need to be changed as per your own file structure:
 
 ![Build Command](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/build.png)
 
