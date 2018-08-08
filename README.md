@@ -93,8 +93,8 @@ rowe
 └───dashboard
 │   │   src
 │   │   package.json
-|		|		[Everything Else]
-|		|
+│   │   [Everything Else]
+│   │   
 ```
 To use npm install, we need to be in the correct directory (in our case, rowe/dashboard). So in addition to running the package.json build script, we need to change directory. Our command was as follows, but this will need to be changed as per your own file structure:
 
@@ -110,12 +110,12 @@ rowe
 │   package-lock.json    
 │
 └───dashboard
-|		|		**dist**
+│   │   **dist**
 │   │   src
 │   │   package.json
-|		|		[Everything Else]
-|		|
-```
+│   │   [Everything Else]
+│   │   
+``` a
 Above was our own file structure, where **dist** was located in our dashboard folder. Our publish directory is therefore:
 
 ![Publish Directory](https://github.com/GregCMills/NetlifySetupNpm/images/publish.png)
