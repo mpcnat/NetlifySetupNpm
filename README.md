@@ -72,13 +72,13 @@ Log in to to netlify, and when prompted enter in your gitlab credentials.
 
 ## Step 4. Choose Your Project and Branch.
 
-![Choose Repository](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/chooseRepository.png)
-
 Find the correct repository, and choose it:
 
-![Choose Branch](https://raw.githubusercontent.com/GregCMills/NetlifySetupNpm/master/images/branch.png)
+![Choose Repository](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/chooseRepository.png)
 
 Choose the branch you which to be continously deployed:
+
+![Choose Branch](https://raw.githubusercontent.com/GregCMills/NetlifySetupNpm/master/images/branch.png)
 
 ## Step 5. Write Build Command.
 
