@@ -100,7 +100,7 @@ rowe
 ```
 To use npm install, we need to be in the same directory as package.json (in our case, rowe/dashboard). 
 
-So in addition to running the package.json build script, we need to change directory. Our command was as follows, but this will need to be changed as per your own file structure:
+So in addition to running the package.json build script via the command *npm run build* , we need to change directory. Our command was as follows, but this will need to be changed as per your own file structure:
 
 ![Build Command](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/build.png)
 
