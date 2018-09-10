@@ -76,7 +76,7 @@ Find the correct repository, and choose it:
 
 ![Choose Repository](https://github.com/GregCMills/NetlifySetupNpm/raw/master/images/chooseRepository.png)
 
-Choose the branch you which to be continously deployed:
+Choose the branch you wish to be continously deployed:
 
 ![Choose Branch](https://raw.githubusercontent.com/GregCMills/NetlifySetupNpm/master/images/branch.png)
 
@@ -136,9 +136,10 @@ The final deploy settings should be something like this:
 If all goes to plan, when you deploy your site netlify will perform the following steps:
 
 0. Do magic pre stuff.
-1. Run npm install to get all dependencies.
-2. Run ng build --prod to create your dist folder (which contains a _redirects)
-3. Deploy site from '[something]/dist/'
+1. Change to the directory that contains the package.json file.
+2. Run npm install to get all dependencies.
+3. Run ng build --prod to create your dist folder (which contains a _redirects)
+4. Deploy site from '[something]/dist/'
 
 And afterwards, it'll give you a link.
 
